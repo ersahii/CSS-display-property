@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css-Display-Properties</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>CSS Display Property</h1>
+    <div class="red box">Block Paragraph</div>
+    <div class="green box">Inline paragraph</div>
+    <div class="blue box">Inline-block paragraph</div>
+    <button onclick="block()">All Block</button>
+    <button onclick="inline()">All inline</button>
+    <button onclick="inlineBlock()">All inline-block</button>
+    <div class="range-container">
+        <label for="blockHeight"> Block-Height:</label>
+        <input type="range" class="points" name="blockHeight" min="0" max="400" onchange="handleChange(this)" id="blockHeight">
+        <label for="blockHeight"> Block-Width:</label>
+        <input type="range" class="points" name="blockHeight" min="0" max="400" onchange="handleChange(this)" id="blockWidth">
+        <label for="blockHeight"> Inline-Height:</label>
+        <input type="range" class="points" name="blockHeight" min="0" max="400" onchange="handleChange(this)" id="inlineHeight">
+        <label for="blockHeight"> Inline-Width:</label>
+        <input type="range" class="points" name="blockHeight" min="0" max="400" onchange="handleChange(this)" id="inlineWidth">
+        <label for="blockHeight"> Inline-Block-Height:</label>
+        <input type="range" class="points" name="blockHeight" min="0" max="400" onchange="handleChange(this)" id="inlineBlockHeight">
+        <label for="blockHeight"> Inline-Block-Widtht:</label>
+        <input type="range" class="points" name="blockHeight" min="0" max="400" onchange="handleChange(this)" id="inlineBlockWidth">
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

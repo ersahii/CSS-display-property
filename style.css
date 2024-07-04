@@ -1,0 +1,42 @@
+.red{
+    display: block;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    margin:10px;
+}
+.green{
+    display: inline;
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    margin:10px;
+}
+.blue{
+    margin:10px;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    background-color:blue;
+}
+.range-container{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    background-color: green;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border:none;
+    border-radius: 10px;
+}
+.all-block{
+    display: block;
+}
+.all-inline{
+    display: inline;
+}
+.all-inline-block{
+    display: inline-block;
+}
